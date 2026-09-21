@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Trésorerie · Connexion</title>
+<title>Trésorerie</title>
 <meta name="robots" content="noindex">
 <meta name="theme-color" content="#0a0e16">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -16,9 +16,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/ui.css">
 <script src="assets/ui.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/flux.js"></script>
 </head>
 <body>
-<div id="app"><div class="login"><div class="logo">€</div><div class="sk" style="width:180px"></div></div></div>
-<script src="assets/pages/login.js"></script>
+<div id="app"><div class="kwrap"><div class="mtop"><div class="row"><span class="brand">Trésorerie</span></div></div><div class="mlist"><div class="card card-b" style="display:flex;flex-direction:column;gap:10px"><div class="sk" style="width:40%"></div><div class="sk" style="width:70%"></div></div></div></div></div>
+<script src="assets/pages/jour.js"></script>
+<script src="assets/pages/previsionnel.js"></script>
+<script src="assets/pages/tiers.js"></script>
+<script src="assets/pages/plus.js"></script>
+<script>App.start();</script>
 </body>
 </html>
